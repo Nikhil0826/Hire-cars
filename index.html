@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hire cars</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+	<style type="text/css">
+
+		*
+		{
+			margin: 0px;
+			padding: 0px;
+            box-sizing: border-box;
+		}
+        body{
+            
+            margin: 0px;
+          
+            box-sizing: border-box;
+        }
+        .maincontainer{
+            height: 100%;
+            width: 100vw;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            margin: 0px;
+        }
+		.navbar{
+			background-color: #e89002;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 20px;
+			height: 65px;
+			position: fixed;
+			top: 0;
+			width: 100vw;
+            box-sizing: border-box;
+
+		}
+		.navbar h2{
+			font-family: calibri;
+			color: white;
+		}
+		.navbar a{
+			text-decoration: none;
+		}
+		.navbar ul{
+			list-style: none;
+			display: flex;
+			align-items: center;
+			margin-right: 40px;
+		}
+		.navbar ul a{
+			margin-left: 20px;
+			font-family: calibri;
+			font-size: 20px;
+			font-weight: bold;
+			color: white;
+		}
+
+		.main{
+            height: 600px;
+            width: 100vw;
+            background-color: #fff;
+			/* padding-top: 140px; */
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+            box-sizing: border-box;
+			margin-top: 40px;
+		}
+
+		.intro{ 
+			margin-left: 40px;
+			margin-right: 40px;
+			margin-top: 40px;
+		} 
+		
+		
+		h1{
+			color: #e89002;
+			font-family: calibri;
+			font-size: 40px;
+		}
+		p{
+			color: black;
+			text-align: justify;
+			font-family: calibri;
+			font-size: 20px;
+		}
+		.bus{
+			margin-top: 20px;
+			margin-right: 60px;
+			height: 50vh;
+		}
+		.btn button{
+			padding: 11px;
+			width: 110px;
+			border-radius: 10px;
+			margin-right: 15px;
+			font-size: 18px;
+			font-weight: bold;
+			background-color: #e89002;
+			border: 10px, solid black;
+		}
+
+		.navbar .btn button{
+			background-color: black;
+			color: white;
+			padding: 9px;
+			width: 100px;
+		}
+
+		.navbar .btn button:hover{
+			background-color: white;
+			color: #e89002;
+			border: 10px, solid black;
+		}
+
+		.btn button:hover{
+			background-color: black;
+			color: #e89002;
+			border: 10px,solid black;
+		}
+		#about{
+			padding-top: 120px;
+			padding-bottom:20px ;
+            box-sizing: border-box;
+		}
+		#about h1{
+			text-align: center;
+		}
+		#about p{
+			margin: 0 30px;
+			text-align: justify;
+		}
+
+		#contact{
+			margin-top: 130px;
+			background-color: black;
+			padding: 1px;
+            box-sizing: border-box;
+		}
+		#contact p{
+			color: white;
+		}
+		.info{
+			display: flex;
+			justify-content: space-between;
+			padding: 0 30px;
+		}
+
+		#contact .footer .info p{
+			font-size: 15px;
+			line-height: 0px;
+		}
+
+        .container{
+    background:linear-gradient(45deg, rgb(249, 247, 251), rgb(253, 253, 253));
+    padding:15px 9%;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+
+.container .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#e89002;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:30px 20px;
+}
+
+.container .box-container .box img{
+    height: 80px;
+}
+
+.container .box-container .box h3{
+    color:#444;
+    font-size: 22px;
+   
+}
+
+.container .box-container .box p{
+    color:#777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container .box-container .box .btn:hover{
+    letter-spacing: 1px;
+}
+
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:740px){
+   
+	.car
+	{
+		width: 740px;
+		padding: 50px;
+	}
+}
+footer{
+   background:rgb(145, 130, 130);
+   padding-top: 40px;
+   width:100vW;
+}
+.container-f{
+   width: 100%;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+}
+.footer-content{
+   width: 20%;
+  margin-left: 13%;
+  padding-right: 10%;
+}
+h3{
+   font-size: 28px;
+   margin-bottom: 15px;
+   text-align: center;
+}
+.footer-content p{
+   width:190px;
+   margin: auto;
+   padding: 7px;
+}
+.footer-content ul{
+   text-align: center;
+}
+.list{
+   padding: 0;
+}
+.list li{
+   width: auto;
+   text-align: center;
+   list-style-type:none;
+   padding: 7px;
+   position: relative;
+}
+.list li::before{
+   content: '';
+   position: absolute;
+   transform: translate(-50%,-50%);
+   left: 50%;
+   top: 100%;
+   width: 0;
+   height: 2px;
+   background: #f18930;
+   transition-duration: .5s;
+}
+.list li:hover::before{
+   width: 70px;
+}
+.social-icons{
+   text-align: center;
+   padding: 0;
+}
+.social-icons li{
+   display: inline-block;
+   text-align: center;
+   padding: 5px;
+}
+.social-icons i{
+   color: white;
+   font-size: 25px;
+}
+a{
+   text-decoration: none;
+}
+a:hover{
+   color:  #e89002;
+}
+.social-icons i:hover{
+   color:  #e89002;
+}
+.bottom-bar{
+   background:  #e89002;
+   text-align: center;
+   padding: 10px 0;
+   margin-top: 50px;
+}
+.bottom-bar p{
+   color: #343434;
+   margin: 0;
+   font-size: 16px;
+   padding: 7px;
+   text-align: center;
+}
+.second{
+	padding-top: 15%;
+	display: flex;
+	padding-left: 5%;
+	padding-right: 5%;
+	justify-content: space-between;
+}
+.car{
+	width:auto;
+	height:600px;
+}
+.thank{
+	padding-right: 2%;
+}
+	</style>
+</head>
+<body>
+	<div class="maincontainer">
+	<div class="navbar">
+		<a href="#"><h2>Hire cars</h2></a>
+		<nav>
+			<div class="nav1">
+				<ul>
+					<a href="#"><li>Home</li></a>
+					<a href="#about"><li>About</li></a>
+					<a href="chatbot.html"><li>Chat</li></a>
+					<li>
+						<div class="btn">
+							<a href="signup.html"><button>sign up</button></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<div class="second">
+		<div class="thank">
+			<h1>Welcome to Hire Car</h1>
+			<p> <b>Your Ultimate Destination for Hassle-Free Hire Car Services!</b>
+				
+
+				At Car Rentals, we offer a wide range of top-quality vehicles to suit your every need. 
+				Whether you're planning a road trip, a family vacation, or simply need a reliable ride for your daily commute, we've got you covered. With competitive rates and flexible rental options, booking with Car Rentals is quick, easy, and convenient.Our user-friendly website makes it simple to reserve your vehicle online, with secure payment options and instant confirmation. Plus, our dedicated customer support team is available to assist you every step of the way, ensuring a smooth and stress-free rental experience.
+				Experience the freedom and flexibility of car rental with “Hire Car”. Book your ride today and hit the road with confidence!
+				</p>
+			
+		</div>
+		<div class="car">
+			<img  src="https://cdn1.acedms.com/w709/photos/listing/2019-08-19/ea67a640f8f9ac9cde3ab33f9d2ff98f_extra_large.jpg.webp">
+		</div>
+	</div>
+
+    <div class="container">
+
+        <h1 class="heading">our services</h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="https://dealeraccelerate-all.s3.amazonaws.com/vcc/marketing_assets/325/1.jpeg" alt="">
+                <h3>Vintage cars</h3>
+                <p> </p>
+              <a href="vintage cars.html" class="btn">See more.</a>
+            </div>
+    
+            <div class="box">
+                <img src="https://imgd.aeplcdn.com/1920x1080/n/cw/ec/95143/exterior-left-front-three-quarter.jpeg?q=80&q=80" alt="">
+                <h3>Luxury car</h3>
+                <p>       </p>
+                <a href="Luxury cars.html" class="btn">See more.</a>
+            </div>
+    
+            <div class="box">
+                <img src="https://w0.peakpx.com/wallpaper/108/740/HD-wallpaper-sony-electric-car.jpg" alt="">
+                <h3>Electric car</h3>
+                <p>     </p>
+                <a href="electric cars.html" class="btn">See more.</a>
+            </div>
+    
+            <div class="box">
+                <img src="https://imgd.aeplcdn.com/600x337/n/cw/ec/134287/city-exterior-right-front-three-quarter-76.jpeg?isig=0&q=80" alt="">
+                <h3>Sedan car</h3>
+                <p>   </p>
+                <a href="sedan cars.html" class="btn">See more.</a>
+            </div>
+    
+            
+    
+        </div>
+    
+    </div>
+
+	<div id="about">
+		<h1>About Us</h1>
+		<p>We Provide a wide range of vehicles for short-term and long-term rentals, including cars and SUVs. Offer an easy-to-use online booking system where customers can browse available vehicles, select rental dates, and make reservations. Airport Pickup/Drop-off: Arrange for convenient pickup and drop-off services at airports or other specified locations to accommodate travelers' needs.We Provide flexible rental options, including hourly, daily, weekly, and monthly rentals, to cater to different customer preferences and travel plans. Offer comprehensive insurance coverage options to protect customers and their rented vehicles against accidents, theft, and damages Provide round-the-clock customer support services to assist customers with reservations, inquiries, and emergency assistance during their rental period. Ensure that all rental vehicles are well-maintained and regularly serviced to guarantee safety and reliability for customers. Offer optional add-on services such as GPS navigation systems, child seats, roadside assistance, and fueling options to enhance the rental experience. Provide special discounts, promotions, and loyalty programs to reward repeat customers and attract new business. Establish partnerships with corporate clients and offer customized rental solutions, invoicing options, and dedicated account management services.
+            </p>
+	</div>
+	
+	<footer>
+		<div class="container-f">
+			<div class="footer-content">
+				<h3>Contact Us</h3>
+				<p>Email:hirecars321@gmail.com</p>
+				<p>Phone:+91 8555051538</p>
+				<p>Address:Balanagar, Hyderabad, Telangana 500042</p>
+			</div>
+			<div class="footer-content">
+				<h3>Quick Links</h3>
+				 <ul class="list">
+					<a href="index.html" style="text-decoration: none; color: #000000"><li>Home</li></a>
+					
+					<a href="#about" style="text-decoration: none; color: #000000"><li>About</li></a>
+					
+					
+				 </ul>
+			</div>
+			<div class="footer-content">
+				<h3>Services</h3>
+				 <ul class="list">
+					<a href="vintage cars.html" style="text-decoration: none; color: #000000"><li>Vintage</li></a>
+					
+					<a href="Luxury cars.html" style="text-decoration: none; color: #000000"><li>Luxury</li></a>
+					<a href="sedan cars.html" style="text-decoration: none; color: #000000"><li>Sedan</li></a>
+					<a href="electric cars.html" style="text-decoration: none; color: #000000"><li>Electric</li></a>
+				 
+				</ul>
+				</div>
+		</div>
+		<div class="bottom-bar">
+			<p>&copy; 2024 your company . All rights reserved</p>
+		</div>
+	</footer>
+</body>
+</html>
