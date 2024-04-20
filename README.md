@@ -16,7 +16,7 @@ URL
 
 https://github.com/Nikhil0826/Hire-cars
 
-4.Industry: type
+4.Industry: automotive industry
 
 
 
