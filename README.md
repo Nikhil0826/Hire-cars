@@ -25,11 +25,11 @@ https://github.com/Nikhil0826/Hire-cars
 ## Roles and responsibilities
 1.Nikhil Gogikar (project management) :Manages the web development project.
 
-2.Shreya Chittimalla (Deployment) :Deployment and maintenance of project infrastructure.
+2.Bodem soundarya (Deployment) :Deployment and maintenance of project infrastructure.
 
-3.Anupama Kunnil (Images, logos and chat bot questions) :Responsible for image searching, logo creation and chat bot questions
+3.Cheetewar Manithej (Images, logos and chat bot questions) :Responsible for image searching, logo creation and chat bot questions
 
-4.Nikhil (Documentation) :Responsible for managing the documentation process.
+4.Balagani sandhya (Documentation) :Responsible for managing the documentation process.
 ## Azure services used:
 Azure blob storage
 
@@ -140,3 +140,5 @@ Here I am attaching the final working website's screenshot for the reference.
 ![about us](https://github.com/Nikhil0826/Hire-cars/assets/153925902/cace4727-d230-4111-9d1b-f0330eaf95a2)
 
 ## Final Project Statement:
+
+The existence of online car rental systems now-a-days has overcome the limitations of the business operations hours
