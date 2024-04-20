@@ -75,23 +75,68 @@ Azure Chatbot :- The Azure AI Language Chatbot is a cutting-edge conversational 
 
 
 ## Static website
+![static website](https://github.com/Nikhil0826/Hire-cars/assets/153925902/e14c13ab-03e3-4b71-9f3b-e89abd2ebe2f)
+
 ## Container
+![container](https://github.com/Nikhil0826/Hire-cars/assets/153925902/1170e9ef-2e04-4cc8-b159-7d9b6be4e8b1)
+
 ## Backup vault
+![backupvault](https://github.com/Nikhil0826/Hire-cars/assets/153925902/e1695cc6-ff0d-4c77-b64e-cecf7214f54b)
+
 ## Role assignment
+![roleassignment](https://github.com/Nikhil0826/Hire-cars/assets/153925902/785cc08a-34f2-4a60-b20a-7496e8ef2cae)
+
 ## Backup policy
+![backupvault](https://github.com/Nikhil0826/Hire-cars/assets/153925902/c7c8b227-153d-4572-8373-f99a2d8db85a)
+
+
 ## Azure Bot
+![bot](https://github.com/Nikhil0826/Hire-cars/assets/153925902/1d0cbd25-3417-451a-9c9c-5e6738103c68)
+
+
+
 ## Test in web chat
+![chatbot working](https://github.com/Nikhil0826/Hire-cars/assets/153925902/56c29c47-d68f-4f14-9f5b-e98e55356b35)
+
+
 ## Resource visualizer
+
+![resourse visualizer](https://github.com/Nikhil0826/Hire-cars/assets/153925902/61d275b6-7301-4094-89b5-159a6d2632cc)
+
 ## Description
 Here I am attaching the final working website's screenshot for the reference.
 ## Working Live Project Display:
+
 ## Home page
+![homepage](https://github.com/Nikhil0826/Hire-cars/assets/153925902/5f421e7a-aaf2-429f-800c-9bda66cc5204)
+
 
 ## signup
+
+![login form](https://github.com/Nikhil0826/Hire-cars/assets/153925902/0f5ed60c-df8e-4582-9eb9-956e8be882d8)
+
+
 ## services
+![services](https://github.com/Nikhil0826/Hire-cars/assets/153925902/66c7e699-3557-4d55-a33e-e54f53db0f25)
+
+
 ## vintage cars
+![vintage car](https://github.com/Nikhil0826/Hire-cars/assets/153925902/42877c3b-3501-42cb-9c2f-b84bf9a864f6)
+
+
 ## luxuary cars
+![luxuarycas](https://github.com/Nikhil0826/Hire-cars/assets/153925902/38353761-597d-4f88-921c-8462057a7c3e)
+
 ## electric cars
+![electric car](https://github.com/Nikhil0826/Hire-cars/assets/153925902/5f4c0057-9be1-4248-a2c4-2d846fccd5a4)
+
+
 ## sedan cars
+![sedancar](https://github.com/Nikhil0826/Hire-cars/assets/153925902/54bb9851-7f5c-441f-adfc-ff8f381fbf5d)
+
+
 ## contact
+
+![about us](https://github.com/Nikhil0826/Hire-cars/assets/153925902/cace4727-d230-4111-9d1b-f0330eaf95a2)
+
 ## Final Project Statement:
