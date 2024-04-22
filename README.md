@@ -5,12 +5,10 @@ Welcome to HIRE CAR - Your Ultimate Destination for Hassle-Free Hire Car Service
 
 
 ## Project Details
-1.Project demo URL:
+1.Project  URL:
 https://myhirecarsstorage.z13.web.core.windows.net/
 
-2.Demo video URL:
-
-URL
+2.Youtube video URL: https://youtu.be/gEbqqns3tcM
 
 3.GitHub Repository URL:
 
