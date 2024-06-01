@@ -10,11 +10,13 @@ https://myhirecarsstorage.z13.web.core.windows.net/
 
 2.Youtube video URL: https://youtu.be/gEbqqns3tcM
 
-3.GitHub Repository URL:
+3.GitHub URL:https://nikhil0826.github.io/Hire-cars/
+
+4.GitHub Repository URL:
 
 https://github.com/Nikhil0826/Hire-cars
 
-4.Industry: automotive industry
+5.Industry: automotive industry
 
 
 
